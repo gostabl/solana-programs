@@ -1,0 +1,26 @@
+[toolchain]
+package_manager = "yarn"
+
+[features]
+resolution = true
+seeds = false
+skip-lint = false
+
+[programs.localnet]
+solana_payment_splitter = "2zHqBm7Qru8BYnpy9CsG6bbUepX3FCzxRFCHeCkPXrCZ"
+
+[programs.devnet]
+solana_payment_splitter = "6GpoKXf12t4egf42cndn7qjurBLtNkP72fTpYSjuidLE"
+
+[programs.mainnet]
+solana_payment_splitter = "6GpoKXf12t4egf42cndn7qjurBLtNkP72fTpYSjuidLE"
+
+[registry]
+url = "https://api.apr.dev"
+
+[provider]
+cluster = "devnet"
+wallet = "~/.config/solana/id.json"
+
+[scripts]
+test = "yarn run ts-mocha -p ./tsconfig.json -t 1000000 tests/**/*.ts"
