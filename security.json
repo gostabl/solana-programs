@@ -5,6 +5,6 @@
   "contacts": ["email:info@gocend.com"],
   "policy": "Please report security issues to info@gocend.com for responsible disclosure.",
   "preferred_languages": ["en"],
-  "source_code": "https://github.com/gostabl/solana-programs",
+  "source_code": "https://github.com/cendhq/solana-programs",
   "version": "0.1.0"
 }
